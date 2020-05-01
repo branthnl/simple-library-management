@@ -6,3 +6,16 @@
 	width: calc(100% - 2rem);
 	max-width: 500px;
 }
+
+#footer-container {
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	text-align: center;
+	width: calc(100% - 2rem);
+	transform: translateX(-50%);
+}
+
+#footer-container span {
+	display: inline-block;
+}
