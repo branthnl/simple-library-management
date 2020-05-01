@@ -1,3 +1,15 @@
+.book-card {
+	display: block;
+	padding: 1rem;
+	border: 1px solid black;
+	margin: 1rem 0;
+}
+
+.book-card > a {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
 #search-form {
 	display: flex;
 	flex-wrap: wrap;

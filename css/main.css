@@ -115,8 +115,6 @@ h1, h3 {
 }
 
 .btn[disabled]:hover, .btn.disabled:hover {
-	background-color: initial;
-	color: initial;
 	cursor: context-menu;
 }
 
