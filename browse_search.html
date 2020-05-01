@@ -33,14 +33,21 @@
 	<main>
 		<div class="container">
 			<div id="heading-container">
-				<h1 class="mb-3">Browse</h1>
-				<h3>Search and preview book here.</h3>
-			</div>
-			<div id="content-container">
-				<form id="search-form" action="browse_search.html" method="get">
+				<form class="mb-4" id="search-form" action="browse.html" method="get">
 					<input class="form-control" type="text" name="q" autocomplete="off">
 					<button class="form-control btn btn-0" type="submit">Search</button>
 				</form>
+				<h1>Search: "c++ fundamentals"</h1>
+			</div>
+			<div id="content-container">
+				<div class="book-card">
+					<h3>Learn Programming</h3>
+					<h5 class="mb-3">Poe Futura</h5>
+					<h5 class="btn btn-3 round" disabled="disabled">Available</h5>
+					<h5 class="btn btn-5 round" disabled="disabled">Tutorial</h5>
+					<h5 class="btn btn-0 round mb-3" disabled="disabled">ISBN: 1240917498273</h5>
+					<a class="btn btn-0 round fn-3 block" href="browse_preview.html">Preview this book</a>
+				</div>
 			</div>
 			<div id="footer-container">
 				<p>Copyright &copy; 2020 Branth, All rights reserved.</p>

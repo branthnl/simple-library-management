@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/brand.png" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" type="text/css" href="css/page.css" />
+	<link rel="stylesheet" type="text/css" href="css/welcome.css" />
 </head>
 <body>
 	<header class="line">
@@ -25,7 +26,7 @@
 				<div><a class="btn btn-0" href="browse.html">Browse</a></div>
 				<div><a class="btn btn-0" href="history.html">History</a></div>
 				<div><a class="btn btn-0" href="profile.html">Profile</a></div>
-				<div><a class="btn btn-2" href="login.html">Log out</a></div>
+				<div><a class="btn btn-1" href="login.html">Log out</a></div>
 			</div>
 		</div>
 	</nav>
@@ -33,16 +34,18 @@
 		<div class="container">
 			<div id="heading-container">
 				<h1 class="mb-3">Welcome!</h1>
-				<h3></h3>
+				<h3>What are you looking for?</h3>
 			</div>
 			<div id="content-container">
+				<form id="search-form" action="browse_search.html" method="get">
+					<input class="form-control" type="text" name="q" autocomplete="off">
+					<button class="form-control btn btn-0" type="submit">Search</button>
+				</form>
 			</div>
 			<div id="footer-container">
 				<p>Copyright &copy; 2020 Branth, All rights reserved.</p>
 			</div>
 		</div>
 	</main>
-	<footer>
-	</footer>
 </body>
 </html>
