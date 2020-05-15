@@ -1,0 +1,45 @@
+header {
+	padding: 0.5rem 1rem;
+}
+
+nav {
+	padding: 1rem;
+}
+
+main {
+	padding: 1rem;
+}
+
+#brand-container > img {
+	width: 2rem;
+	transform: translateY(0.3rem);
+	margin-right: 1rem;
+}
+
+#nav-container .btn {
+	font-size: 1rem;
+	margin: 0 0.25rem;
+}
+
+#nav-container > div {
+	display: inline-block;
+}
+
+#heading-container {
+	margin-bottom: 1rem;
+}
+
+#footer-container {
+	color: grey;
+	margin: 2rem 0 1.5rem 0;
+}
+
+@media (max-width: 576px) {
+	#nav-container > div {
+		display: block;
+	}
+	#nav-container .btn {
+		width: 100%;
+		margin: 0.25rem 0;
+	}
+}

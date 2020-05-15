@@ -1,0 +1,21 @@
+#search-form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#search-form > input {
+	flex: 0.9;
+}
+
+#search-form > button {
+	flex: 0.1;
+}
+
+@media (max-width: 576px) {
+	#search-form {
+		flex-direction: column;
+	}
+	#search-form > button {
+		margin: 0.5rem 25% 0 25%;
+	}
+}

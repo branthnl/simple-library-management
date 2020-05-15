@@ -1,0 +1,29 @@
+.my-table td:nth-child(2) {
+	text-align: left;
+}
+
+.my-table td:nth-child(2) a {
+	color: black;
+	text-decoration: none;
+}
+
+.my-table td:nth-child(2) a:hover {
+	text-decoration: underline;
+}
+
+.my-table td:nth-child(5) {
+	font-size: 0.8rem;
+}
+
+.my-table td:nth-child(5) a {
+	color: black;
+	text-decoration: none;
+}
+
+.my-table td:nth-child(5) a:hover {
+	text-decoration: underline;
+}
+
+.my-table td:nth-child(5) em {
+	color: grey;
+}

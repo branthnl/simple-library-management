@@ -1,0 +1,53 @@
+#form-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: calc(100% - 2rem);
+	max-width: 500px;
+}
+
+#footer-container {
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	text-align: center;
+	width: calc(100% - 2rem);
+	transform: translateX(-50%);
+}
+
+#footer-container span {
+	display: inline-block;
+}
+
+.prompt {
+	position: fixed;
+	top: 2rem;
+	left: 50%;
+	text-align: center;
+	width: 100%;
+	transform: translateX(-50%);
+	padding: 0.5rem 2rem;
+	animation: promptin 0.5s ease;
+}
+
+.prompt.prompt-1 {
+	color: white;
+	background-color: orangered;
+}
+
+.prompt.prompt-2 {
+	color: white;
+	background-color: crimson;
+}
+
+@keyframes promptin {
+	0% {
+		opacity: 0;
+		transform: scale(1.2) translateX(-40%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) translateX(-50%);
+	}
+}

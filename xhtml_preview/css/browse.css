@@ -1,0 +1,33 @@
+.book-card {
+	display: block;
+	padding: 1rem;
+	border: 1px solid black;
+	margin: 1rem 0;
+}
+
+.book-card > a {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#search-form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#search-form > input {
+	flex: 0.9;
+}
+
+#search-form > button {
+	flex: 0.1;
+}
+
+@media (max-width: 576px) {
+	#search-form {
+		flex-direction: column;
+	}
+	#search-form > button {
+		margin: 0.5rem 25% 0 25%;
+	}
+}
